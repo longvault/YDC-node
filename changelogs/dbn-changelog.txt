@@ -1,0 +1,16 @@
+List of changes from the original NXT 1.8.3 source code
+
+DBN 1.0.2
+Fixed MIN_VERSION bug
+
+DBN 1.0.1
+Added Genesis block for internal testing
+Added dbn.currencyName parameter for easy forking new blockchains
+Renamed occurences of NQT (NXT quants) to DQT (DBN quants)
+
+DBN 1.0.0
+
+Genesis.java: Updated to create a new Genesis block
+Constants.java: Updated to enable all blocks checks immediately
+http/API.java: Added dbn.enableApiTestUI property to enable/disable test ui
+Dbn.java: Added dbn.forgerSecretPhrase to automatically start forging when starting the node
